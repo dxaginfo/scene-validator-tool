@@ -1,0 +1,30 @@
+{
+  "title": "Opening Scene",
+  "description": "Hero walks through abandoned building",
+  "creation_date": "2025-06-20",
+  "author": "John Doe",
+  "elements": [
+    {
+      "type": "camera",
+      "position": {"x": 0, "y": 1.7, "z": 0},
+      "rotation": {"x": 0, "y": 0, "z": 0}
+    },
+    {
+      "type": "character",
+      "name": "Hero",
+      "position": {"x": 2, "y": 0, "z": 1},
+      "animation": "walking"
+    },
+    {
+      "type": "environment",
+      "name": "AbandonedBuilding",
+      "lighting": "dim",
+      "atmosphere": "dusty"
+    }
+  ],
+  "timeline": [
+    {"time": 0, "event": "Hero enters from right"},
+    {"time": 5, "event": "Hero stops and looks around"},
+    {"time": 10, "event": "Camera pans to follow Hero"}
+  ]
+}

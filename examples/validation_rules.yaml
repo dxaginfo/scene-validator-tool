@@ -1,0 +1,13 @@
+validation_rules:
+  metadata_requirements:
+    - title
+    - description
+    - creation_date
+    - author
+  structure_requirements:
+    - scene_boundaries
+    - proper_nesting
+    - timeline_integrity
+  custom_rules:
+    - narrative_consistency
+    - character_continuity
